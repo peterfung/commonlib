@@ -123,3 +123,14 @@ make
 make install
 ```
 ### usage
+
+## leveldb
+### build
+```
+mkdir build
+mkdir install 
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=/home/fzp/sourcode/leveldb/install -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_STANDARD=17
+make install 
+```
+### usage
